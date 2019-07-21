@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>消息录入界面</title>
+  </head>
+  <body>
+
+    <form class="" action="?" method="post">
+      {% csrf_token %}
+      <fieldset>
+        <legend>请输入并提交</legend>
+        {{ form.as_p }}
+      </fieldset>
+      <input type="submit" name="" value="submit"/>
+    </form>
+
+  </body>
+</html>
